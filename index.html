@@ -4,18 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assents/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assents/css/cambios.css">
+
     <title>Portafolio</title>
 </head>
 <body>
-    <h1>hola mi nombre es juan </h1>
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+<header>
+  <div><nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <a class="navbar-brand" href="#">Portafolio</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#">inicio</a>
+        <a class="nav-item nav-link" href="#">contacto</a>
+      </div>
+    </div>
+  </nav>
+</div>
+</header>
+<section>
+<!--presentacion-->
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-6">
+        <img src="/assents/images/persona.PNG" class="rounded float-left" alt="...">
+        
+    </div>
+    <div class="col-md-6 rounded p-4 bg-jujo">
+      <h1 >¡Bienvenido a mi portafolio!</h1>
+      <p >Soy un programador apasionado por la creación de soluciones tecnológicas eficientes y escalables. A lo largo de mi trayectoria, he trabajado en diversos proyectos que abarcan desde el desarrollo de aplicaciones web hasta la automatización de procesos. Mi enfoque está en escribir código limpio, mantener buenas prácticas de desarrollo y aprender continuamente nuevas tecnologías.
+        En este portafolio, encontrarás una selección de proyectos que reflejan mis habilidades en lenguajes como JavaScript, Python, y Java, así como en frameworks y herramientas modernas. Cada proyecto ha sido cuidadosamente documentado, mostrando no solo el producto final, sino también los retos enfrentados y las soluciones implementadas.
+      </p>
+    </div>
+
+  </div>
+  
+</div>
+<!--tabla de skills-->
+<div class="container">
+  <div class="col-md-12">
+    <h2>Skills</h2>
+    <table class="table table-striped table-dark">
+      <thead>
+        <tr>
+          <th scope="col">lenguajes</th>
+          <th scope="col">nivel de conocimiento</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">python</th>
+          <td>medio</td>
+          
+        </tr>
+        <tr>
+          <th scope="row">Java</th>
+          <td>medio</td>
+          
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+<!--card de proyectos-->
+<div class="container ">
+  <div class="row">
+    <div class="col md-6 ">
+      <div class="card text-white bg-jujo mb-3" style="width: 18rem;">
+        <img class="card-img-top" src="/assents/images/sticky-notes-936599_1280.jpg" alt="Card image cap">
+        <div class="card-body ">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
+    </div>
+    <div class="col md-6">
+      <div class="card text-white bg-jujo mb-3" style="width: 18rem;">
+        <img class="card-img-top" src="/assents/images/technology-785742_1280.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>  
+<footer>
+  <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+   <div class="social-links">
+      <a href="https://linkedin.com/in/tu-usuario">LinkedIn</a>
+      <a href="https://github.com/tu-usuario">GitHub</a>
+   </div>
+</footer>
 
 <script src="/assents/js/bootstrap.min.js"></script>
 </body>
