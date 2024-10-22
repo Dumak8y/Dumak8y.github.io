@@ -14,4 +14,8 @@ body {
     padding: 10px;
     border-radius: 5px; /* Bordes redondeados opcionales */
 }
+
+.centrar{
+    text-align: center;
+}
  
